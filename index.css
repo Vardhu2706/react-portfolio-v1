@@ -1,4 +1,10 @@
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
@@ -10,12 +16,44 @@
     height: 80px;
 }
 
-.nav-items > ul{
+.navbar-links {
+    align-items: left;
+}
+
+.navbar-links > ul{
     display: flex;
     list-style: none;
 }
 
-.nav-items > ul > li {
+.navbar-links > ul > li {
     padding: 10px;
     margin: 10px;
+}
+
+.navbar-items {
+    display: flex;
+}
+
+.header-container {
+    border: 1px solid black;
+}
+
+.view-more-container {
+    display: flex;
+    align-items: left;
+    padding: 20px;
+    margin: 40px 20px;
+    align-items: center;
+}
+
+.view-more-text {
+    padding: 10px;
+    padding-right: 5px;
+    vertical-align: baseline;
+}
+
+.view-more-icon {
+    padding: 10px;
+    padding-left: 5px;
+    vertical-align: baseline;
 }
